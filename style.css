@@ -66,7 +66,7 @@ body {
     color: grey;
 }
 
-input {
+.input-number {
     border-top-style: hidden;
     border-right-style: hidden;
     border-left-style: hidden;
@@ -127,7 +127,7 @@ input {
 .updates {
     text-align: left;
     padding-top: 10px;
-    padding-bottom: 100px;
+
 }
 
 .updates h1 {
@@ -142,9 +142,46 @@ input {
     font-size: 15px;
 }
 
+.input-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Poppins', sans-serif;
+    background-color: #f7e1b8;
+    padding: 100px;
+    margin: 100px;
+}
+
+.input-email {
+    width: 50%;
+    text-align: left;
+    font-family: 'Poppins', sans-serif;
+    font-size: 20px;
+    border-top-style: hidden;
+    border-right-style: hidden;
+    border-left-style: hidden;
+    border-bottom-style: hidden;
+    border-radius: 5px;
+}
+
+.input-subscribe {
+    width: 20%;
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    font-size: 20px;
+    background-image: linear-gradient(orange, #ff7300);
+    border-top-style: hidden;
+    border-right-style: hidden;
+    border-left-style: hidden;
+    border-bottom-style: hidden;
+    border-radius: 5px;
+}
+
+
 .button06 {
     border: none;
-    color: grey;
+    color: white;
+    background-image: linear-gradient(orange, #ff7300);
     padding: 10px 10px;
     text-align: center;
     text-decoration: none;
@@ -152,7 +189,6 @@ input {
     font-weight: 700;
     margin: 4px 2px;
     cursor: pointer;
-    border-radius: 10px;
 }
 
 .button06:hover {
