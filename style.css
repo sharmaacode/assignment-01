@@ -175,7 +175,14 @@ body {
     border-left-style: hidden;
     border-bottom-style: hidden;
     border-radius: 5px;
+    cursor: pointer;
 }
+
+.input-subscribe:hover {
+    background-color: rgb(193, 230, 193);
+    color: grey;
+}
+
 
 
 .button06 {
@@ -194,4 +201,22 @@ body {
 .button06:hover {
     background-color: greenyellow;
     color: grey;
+}
+
+
+.footer-container {
+    background-color: black;
+    color: tomato;
+    padding: 10px;
+    margin: 10px;
+    text-align: center;
+}
+
+footer h1 {
+    font-family: brush script mt;
+    font-size: 50px;
+}
+
+footer p {
+    color: white;
 }
