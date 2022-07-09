@@ -45,7 +45,7 @@ body {
 }
 
 .donation-container p {
-    font-size: 20px;
+    font-size: 15px;
 }
 
 .button {
@@ -67,14 +67,95 @@ body {
 }
 
 input {
-    outline: 0;
-    border-width: 0 0 2px;
-    border-color: gainsboro
+    border-top-style: hidden;
+    border-right-style: hidden;
+    border-left-style: hidden;
+    border-bottom-style: thin;
+    width: 50%;
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    font-size: 20px;
 }
 
+.donation-type {
+    text-align: left;
+    padding-top: 10px;
+    padding-bottom: 100px;
+}
 
-hr {
-    width: 70%;
-    margin-left: auto;
-    margin-right: auto;
+.donation-type h1 {
+    font-size: 50px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.donation-type p {
+    text-align: center;
+    font-size: 15px;
+}
+
+.donation-type-container {
+    display: flex;
+    margin: 20px;
+}
+
+.donation-type-container p {
+    text-align: left;
+}
+
+.food {
+    background-color: #affae1;
+}
+
+.shelter {
+    background-color: #f8dee2;
+}
+
+.education {
+    background-color: #f7e1b8;
+}
+
+.item {
+    margin-left: 5px;
+    margin-right: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius: 10px;
+}
+
+.updates {
+    text-align: left;
+    padding-top: 10px;
+    padding-bottom: 100px;
+}
+
+.updates h1 {
+    font-size: 50px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.updates p {
+    text-align: center;
+    font-size: 15px;
+}
+
+.button06 {
+    border: none;
+    color: grey;
+    padding: 10px 10px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 700;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 10px;
+}
+
+.button06:hover {
+    background-color: greenyellow;
+    color: grey;
 }
