@@ -207,9 +207,10 @@ body {
 .footer-container {
     background-color: black;
     color: tomato;
-    padding: 10px;
-    margin: 10px;
+    padding: 0px;
+    margin: 0px;
     text-align: center;
+    height: 200px;
 }
 
 footer h1 {
